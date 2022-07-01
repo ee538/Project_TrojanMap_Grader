@@ -1,4 +1,3 @@
-from __future__ import print_function
 import re
 
 def get_ok_num_perq(tresfile):
@@ -14,7 +13,3 @@ def get_ok_num_perq(tresfile):
     return cnt
 
 
-q_nums = [1, 2.1]
-
-for q in q_nums:
-    print("now: %s" % q)

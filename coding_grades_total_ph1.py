@@ -1,3 +1,4 @@
+from __future__ import print_function
 from utils import *
 
 total_coding_score = 0.0;
