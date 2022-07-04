@@ -10,7 +10,7 @@ for q_num in q_nums:
 
 	if q_num == 9:
 		cur_score = pass_num * 2.5
-		print("Item 1:", pass_num, "/", 8, "passed | score:", cur_score)
+		print("Item 9:", pass_num, "/", 8, "passed | score:", cur_score)
 		total_coding_score += cur_score
 	elif q_num == 10:
 		cur_score = pass_num * 2.5
