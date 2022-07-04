@@ -2,7 +2,7 @@
 #include "src/lib/trojanmap.h"
 
 
-// Test FindPosition function: 5 points
+// Test FindPosition function: 1 point
 TEST(TrojanMapTest, FindPosition) {
   TrojanMap m;
   

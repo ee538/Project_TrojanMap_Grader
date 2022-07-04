@@ -1,7 +1,7 @@
 #include "gtest/gtest.h"
 #include "src/lib/trojanmap.h"
 
-// Test Autocomplete function: 5 points
+// Test Autocomplete function: 1 point
 TEST(TrojanMapTest, Autocomplete1) {
   TrojanMap m;
   
