@@ -1,7 +1,6 @@
 #include "gtest/gtest.h"
 #include "src/lib/trojanmap.h"
 
-// Test FindNearby points 5pts
 TEST(TrojanMapTest, FindNearby) {
   TrojanMap m;
   
@@ -10,7 +9,6 @@ TEST(TrojanMapTest, FindNearby) {
   EXPECT_EQ(result, ans);
 }
 
-// Test FindNearby points 5pts
 TEST(TrojanMapTest, FindNearby2) {
   TrojanMap m;
   

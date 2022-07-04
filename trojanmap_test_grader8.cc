@@ -1,7 +1,6 @@
 #include "gtest/gtest.h"
 #include "src/lib/trojanmap.h"
 
-// Test cycle detection function 5pts
 TEST(TrojanMapTest, TopologicalSort1) {
   TrojanMap m;
   
@@ -12,7 +11,6 @@ TEST(TrojanMapTest, TopologicalSort1) {
   EXPECT_EQ(result, gt);
 }
 
-// Test cycle detection function 5pts
 TEST(TrojanMapTest, TopologicalSort2) {
   TrojanMap m;
   

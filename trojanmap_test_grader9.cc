@@ -2,7 +2,6 @@
 #include "src/lib/trojanmap.h"
 
 
-// Test TSP function 2.5pts
 TEST(TrojanMapTest, TSP_brute_force) {
   TrojanMap m;
   
@@ -21,7 +20,6 @@ TEST(TrojanMapTest, TSP_brute_force) {
   EXPECT_EQ(flag, true);
 }
 
-// Test TSP function 2 2.5pts
 TEST(TrojanMapTest, TSP_brute_force_2) {
   TrojanMap m;
   
@@ -39,7 +37,6 @@ TEST(TrojanMapTest, TSP_brute_force_2) {
   EXPECT_EQ(flag, true);
 }
 
-// Test TSP function 2.5pts
 TEST(TrojanMapTest, TSP) {
   TrojanMap m;
   
@@ -58,7 +55,6 @@ TEST(TrojanMapTest, TSP) {
   EXPECT_EQ(flag, true);
 }
 
-// Test TSP function 2 2.5pts
 TEST(TrojanMapTest, TSP2) {
   TrojanMap m;
   
@@ -76,7 +72,6 @@ TEST(TrojanMapTest, TSP2) {
   EXPECT_EQ(flag, true);
 }
 
-// Test TSP function 5pts
 TEST(TrojanMapTest, TSP_2opt) {
   TrojanMap m;
   
@@ -95,7 +90,6 @@ TEST(TrojanMapTest, TSP_2opt) {
   EXPECT_EQ(flag, true);
 }
 
-// Test TSP function 2 5pts
 TEST(TrojanMapTest, TSP_2opt_2) {
   TrojanMap m;
   
@@ -114,8 +108,7 @@ TEST(TrojanMapTest, TSP_2opt_2) {
 }
 
 // copied below, just for ease of points assignment
-// Test TSP function 2 5pts
-TEST(TrojanMapTest, TSP_2opt_2) {
+TEST(TrojanMapTest, TSP_2opt_3) {
   TrojanMap m;
   
   std::vector<std::string> input{"1862312636", "7424270441", "67666219", "4015405548", "4015203110", "6807439002"}; // Input location ids 
@@ -132,8 +125,7 @@ TEST(TrojanMapTest, TSP_2opt_2) {
   EXPECT_EQ(flag, true);
 }
 
-// Test TSP function 2 5pts
-TEST(TrojanMapTest, TSP_2opt_2) {
+TEST(TrojanMapTest, TSP_2opt_4) {
   TrojanMap m;
   
   std::vector<std::string> input{"1862312636", "7424270441", "67666219", "4015405548", "4015203110", "6807439002"}; // Input location ids 
