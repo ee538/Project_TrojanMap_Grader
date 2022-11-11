@@ -3,7 +3,7 @@ from utils import *
 
 total_coding_score = 0.0;
 
-q_nums = [2.2, 3, 5, 6, 7, 8]
+q_nums = [2.2, 3, 4, 5, 6, 7, 8]
 
 for q_num in q_nums:
 	pass_num = get_ok_num_perq("grades/Q%sres_.txt" % q_num)
@@ -17,8 +17,12 @@ for q_num in q_nums:
 		print("Item 3:", pass_num, "/", 1, "passed | score:", cur_score)
 		total_coding_score += cur_score
 	elif q_num == 4:
-		cur_score = pass_num * 1
+		cur_score = pass_num * 2
 		print("Item 4:", pass_num, "/", 2, "passed | score:", cur_score)
+		total_coding_score += cur_score
+	elif q_num == 5:
+		cur_score = pass_num * 2
+		print("Item 5:", pass_num, "/", 3, "passed | score:", cur_score)
 		total_coding_score += cur_score
 	elif q_num == 6:
 		cur_score = pass_num * 2
