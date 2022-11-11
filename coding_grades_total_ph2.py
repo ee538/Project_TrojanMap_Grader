@@ -3,7 +3,7 @@ from utils import *
 
 total_coding_score = 0.0;
 
-q_nums = [2.2, 6, 7, 8]
+q_nums = [2.2, 3, 5, 6, 7, 8]
 
 for q_num in q_nums:
 	pass_num = get_ok_num_perq("grades/Q%sres_.txt" % q_num)
