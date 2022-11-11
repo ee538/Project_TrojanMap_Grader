@@ -80,6 +80,15 @@ cc_test(
     timeout="long",
 )
 
+cc_test(
+    name = "trojanmap_test_grader5",
+    srcs = ["trojanmap_test_grader5.cc"],
+    deps = [
+        "//src/lib:TrojanMap",
+        "@googletest//:gtest_main",
+    ],
+    timeout="long",
+)
 
 cc_test(
     name = "trojanmap_test_grader6",
