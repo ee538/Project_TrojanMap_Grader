@@ -61,6 +61,27 @@ cc_test(
 )
 
 cc_test(
+    name = "trojanmap_test_grader3",
+    srcs = ["trojanmap_test_grader3.cc"],
+    deps = [
+        "//src/lib:TrojanMap",
+        "@googletest//:gtest_main",
+    ],
+    timeout="long",
+)
+
+cc_test(
+    name = "trojanmap_test_grader4",
+    srcs = ["trojanmap_test_grader4.cc"],
+    deps = [
+        "//src/lib:TrojanMap",
+        "@googletest//:gtest_main",
+    ],
+    timeout="long",
+)
+
+
+cc_test(
     name = "trojanmap_test_grader6",
     srcs = ["trojanmap_test_grader6.cc"],
     deps = [
