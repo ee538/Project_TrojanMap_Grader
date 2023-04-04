@@ -7,7 +7,7 @@ TEST(TrojanMapTest, CheckPath) {
                                                                   {0.01, {"Ralphs", "Target"}},
                                                                   {0.02, {"KFC", "Target"}},
                                                                   {999, {"dummy", "dummy"}}};
-  auto actual = m.CheckPath(input);
+  auto actual = m.Queries(input);
   std::vector<bool> expected {true, false, false, false};
   EXPECT_EQ(expected, actual);
 }
