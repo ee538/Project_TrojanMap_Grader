@@ -9,7 +9,7 @@ for q_num in q_nums:
 	pass_num = get_ok_num_perq("grades/Q%sres_.txt" % q_num)
 
 	if q_num == 9:
-		cur_score = pass_num * 2.5
+		cur_score = 15 if pass_num == 8 else pass_num * 2
 		print("Item 9:", pass_num, "/", 8, "passed | score:", cur_score)
 		total_coding_score += cur_score
 	elif q_num == 10:
