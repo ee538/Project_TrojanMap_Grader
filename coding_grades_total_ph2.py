@@ -21,11 +21,11 @@ for q_num in q_nums:
 		print("Item 4:", pass_num, "/", 2, "passed | score:", cur_score)
 		total_coding_score += cur_score
 	elif q_num == 5:
-		cur_score = pass_num * 2
+		cur_score = pass_num * 1
 		print("Item 5:", pass_num, "/", 3, "passed | score:", cur_score)
 		total_coding_score += cur_score
 	elif q_num == 6:
-		cur_score = pass_num * 2
+		cur_score = pass_num * 2.5
 		print("Item 6:", pass_num, "/", 6, "passed | score:", cur_score)
 		total_coding_score += cur_score
 	elif q_num == 7:
